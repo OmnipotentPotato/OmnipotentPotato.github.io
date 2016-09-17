@@ -1,0 +1,100 @@
+@import url("animate.css");
+@font-face {
+    font-family: 'bebas_book';
+    src: url('fonts/bebas_book/bebas_book-webfont.eot');
+    src: url('fonts/bebas_book/bebas_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebas_book/bebas_book-webfont.woff2') format('woff2'),
+         url('fonts/bebas_book/bebas_book-webfont.woff') format('woff'),
+         url('fonts/bebas_book/bebas_book-webfont.ttf') format('truetype'),
+         url('fonts/bebas_book/bebas_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_slab';
+    src: url('fonts/roboto_slab/robotoslab-regular-webfont.eot');
+    src: url('fonts/roboto_slab/robotoslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto_slab/robotoslab-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto_slab/robotoslab-regular-webfont.woff') format('woff'),
+         url('fonts/roboto_slab/robotoslab-regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto_slab/robotoslab-regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-size: 50px;
+	color:#026e9f;
+	font-family: 'bebas_book';
+	background-color:#03b0ff;
+	background-image: url('images/background.png');
+	text-align: center;
+
+}
+
+h1 {
+	font-size:250px; 
+	font-family: 'bebas_book';
+	color:#026e9f;
+	text-align: center;
+	margin: 5px 0 -35px 0;
+	text-shadow: 0 10px 10px;
+}
+h2 {
+	font-size:250px; 
+	font-family: 'bebas_book';
+	color:#026e9f;
+	text-align: center;
+}
+h3 {
+	font-size:50px; 
+	font-family: 'bebas_book';
+	color:#026e9f;
+	text-align: center;
+}
+
+p {
+	font-size:20px; 
+	font-family: 'roboto_slab';
+	color:#026e9f;
+	text-align: center;
+	margin: 5px 200px 5px 200px;
+}
+
+a:link    {color:#1b76a0; background-color:transparent; text-decoration:none}
+a:visited {color:#1b76a0; background-color:transparent; text-decoration:none}
+a:hover   {color:#1b76a0; background-color:transparent; text-decoration:underline}
+a:active  {color:#1b76a0; background-color:transparent; text-decoration:underline}
+
+.navButton {
+	background-color:#03b0ff;
+	/*-moz-border-radius:6px;
+	-webkit-border-radius:6px;*/
+	border-radius:30px;
+	border:3px solid #026e9f;
+	cursor:pointer;
+	color:#026e9f;
+	font-family:bebas_book;
+	font-size:30px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-align: center;
+	margin: 5px 0 5px 0;
+	display:inline-block;
+	transition: color 0.3s, background-color 0.3s;
+	transition-timing-function: ease-in-out; 
+}
+.navButton:hover {
+	text-decoration:none;
+	position:relative;
+	color:#03b0ff;
+	background-color:#026e9f;
+}
+.navButton:active {
+	position:relative;
+	top:2px;
+}
+
