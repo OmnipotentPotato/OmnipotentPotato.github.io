@@ -3,7 +3,7 @@ function aboutClick()
 	//var about = document.getElementById('about');
 	//var links = document.getElementById('links');
 	
-	document.getElementById("text").innerHTML = "Hey hey hey.<br><br>I’m Omnipotent “Omni” Potato, an independent game developer from the US.<br> I have worked on programming for 5 years, starting with very basic level games and concepts and then working my way up to full games made with GM:S and Java.<br><br>I like to experiment with weird and different game mechanics that make the gameplay of my games fun and original.<br> I’ve had some of my early games featured on Scratch (a program by the MIT Media Lab) as well as get thousands of plays.<br> My top games on GameJolt have 4+ star reviews and I work on more projects every day!";
+	document.getElementById("text").innerHTML = "filler about me LOL.";
 	
 	linetoworkwith = document.getElementById("text");
 	
