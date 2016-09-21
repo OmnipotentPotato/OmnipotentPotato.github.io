@@ -5,7 +5,7 @@ body {
 	color:#026e9f;
 	font-family: 'arial';
 	background-color:#03b0ff;
-	background-image: url('images/background.png');
+	background-image: url('images/checker.png');
 	text-align: center;
 
 }
@@ -14,7 +14,7 @@ h1 {
 	font-size:150px; 
 	letter-spacing: 2px;
 	font-family: 'arial';
-	color:#026e9f;
+	color:#03b0ff;
 	text-align: center;
 	margin: 5px 0 -35px 0;
 	text-shadow: 0 10px 10px;
