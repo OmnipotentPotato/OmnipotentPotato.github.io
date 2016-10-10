@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -32,7 +32,7 @@
   -webkit-animation-duration: .75s;
   animation-duration: .75s;
 }
-
+  
 @-webkit-keyframes bounce {
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);

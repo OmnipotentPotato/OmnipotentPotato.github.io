@@ -1,0 +1,9 @@
+#gameslist {
+	-webkit-filter: brightness(100%);
+	-webkit-filter: saturate(100%);
+}
+#gameslist:hover {
+	-webkit-filter: brightness(150%);
+	-webkit-filter: saturate(500%);
+}
+
