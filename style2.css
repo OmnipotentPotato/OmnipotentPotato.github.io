@@ -1,11 +1,11 @@
 @import url("animate.css");
 
 body {
-	font-size: 50px;
+	font-size: 20px;
 	color:#026e9f;
 	font-family: 'arial';
-	background-color:#03b0ff;
-	background-image: url('images/checker.png');
+	background-color:#f6e7b0;
+	background-image: none;
 	text-align: center;
 
 }
@@ -14,10 +14,10 @@ h1 {
 	font-size:150px; 
 	letter-spacing: 2px;
 	font-family: 'arial';
-	color:#03b0ff;
+	color:#f6e7b0;
 	text-align: center;
-	margin: 5px 0 -35px 0;
-	text-shadow: 0 10px 10px;
+	margin: 50px 0 -35px 0;
+	-webkit-text-stroke: 4px #817078;
 }
 h2 {
 	font-size:250px; 
@@ -26,19 +26,19 @@ h2 {
 	text-align: center;
 }
 h3 {
-	font-size:50px; 
+	font-size:10px; 
 	font-family: 'arial';
-	color:#026e9f;
+	color:#0d0831;
 	text-align: center;
 }
 
 p {
 	overflow:hidden;
-	font-size:20px; 
-	font-family: 'georgia';
-	color:#026e9f;
-	text-align: left;
-	margin: 5px 200px 5px 200px;
+	font-size:50px; 
+	font-family: 'arial';
+	color:#0d0831;
+	text-align: center;
+	margin: 50px 200px 5px 200px;
 	/*margin 0 0 0 10px;*/
 }
 
@@ -47,33 +47,19 @@ a:visited {color:#1b76a0; background-color:transparent; text-decoration:none}
 a:hover   {color:#1b76a0; background-color:transparent; text-decoration:underline}
 a:active  {color:#1b76a0; background-color:transparent; text-decoration:underline}
 
-.navButton {
-	background-color:#03b0ff;
-	/*-moz-border-radius:6px;
-	-webkit-border-radius:6px;*/
-	border-radius:30px;
-	border:3px solid #026e9f;
+.button {
 	cursor:pointer;
 	color:#026e9f;
-	font-family: arial;
-	font-size:30px;
-	font-weight:bold;
 	padding:6px 24px;
-	text-decoration:none;
-	text-align: center;
-	margin: 30px 0 5px 0;
 	display:inline-block;
-	transition: color 0.5s, background-color 0.2s;
-	transition-timing-function: ease-in-out; 
-	box-shadow: 0 5px 10px;
 }
-.navButton:hover {
-	text-decoration:none;
+.button:hover {
+	-webkit-filter: brightness(3); filter: brightness(3);
 	position:relative;
 	color:#03b0ff;
-	background-color:#026e9f;
+	top:5px;
 }
-.navButton:active {
+.button:active {
 	position:relative;
 	top:2px;
 }
